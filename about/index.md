@@ -7,7 +7,7 @@ eleventyNavigation:
   order: 3
 ---
 
-Some public writing. 
+This exists to motivate me to write more. It's not really working.  
 
 [Email me](mailto:lewis.kirvan@gmail.com) 
 
