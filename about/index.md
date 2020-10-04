@@ -7,7 +7,8 @@ eleventyNavigation:
   order: 3
 ---
 
-This exists to motivate me to write more. It's not really working.  
+This exists to motivate me to write more. It's not really working. 
+Also mushroom pictures! 
 
 [Email me](mailto:lewis.kirvan@gmail.com) 
 
