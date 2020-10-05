@@ -3,7 +3,8 @@ title: Placeholder.
 description: Working on it.
 date: 2020-10-04
 tags:
-  - place-holder
+  - books
+  - political economy 
 layout: layouts/post.njk
 ---
 
