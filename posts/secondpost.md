@@ -1,5 +1,5 @@
 ---
-title: Placeholder.
+title: Notes from reading books.
 description: Working on it.
 date: 2020-10-04
 tags:
