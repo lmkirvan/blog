@@ -19,5 +19,5 @@ I haven't seen this pale yellow color before either:
 
 One early edible too (at least I'm prettty sure) a baby maitake:
 
-![baby maitake](/img/2020_10-03_baby_maitake.jpg)
+![baby maitake](/img/2020_10_03_baby_maitake_sharp.jpg)
 
