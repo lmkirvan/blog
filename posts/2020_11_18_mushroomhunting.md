@@ -13,10 +13,10 @@ I don't know exactly what I was expecting--but despite the woods being very diff
 
 A new polyphore, mostly notable for the fact that it's a near perfect semi-circle. 
 
-![semi-circle polyphore](2020_11_18_semi_circle.jpg)
+![semi-circle polyphore](/img/2020_11_18_semi_circle.jpg)
 
-I also saw the fairly commen oyster look-alike called that is usually called angel wings. Much more delicate than oystes and growing on hemlock or maybe cedar. 
+I also saw the fairly common oyster look-alike called that is usually called angel wings. Much more delicate than oystes and growing on hemlock or maybe cedar. 
 
-![angel wings](2020_11_18_angel_wings.jpg)
+![angel wings](/img/2020_11_18_angel_wings.jpg)
 
 The woods itself were beautiful and surprisingly not lush or jungly. The pines needles must be somewhat allelopathic because the number of species growing below them was pretty limited. But, lots of beautiful palmettos do flourish. 
