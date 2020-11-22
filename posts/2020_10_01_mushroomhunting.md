@@ -1,5 +1,5 @@
 ---
-title: Mushroom (pitcture) hunting in Rock Creek Park.
+title: Mushroom (picture) hunting in Rock Creek Park.
 description: perfect weather.
 date: 2020-10-03
 tags:

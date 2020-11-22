@@ -1,5 +1,5 @@
 ---
-title: Mushroom (pitcture) hunting in loblolly forest in Gainesville.
+title: Mushroom (picture) hunting in loblolly forest in Gainesville.
 description: perfect weather.
 date: 2020-11-17
 tags:
