@@ -149,7 +149,8 @@ pre {
   padding-top: 1em;
   padding-bottom: .5em;
   float: left;
-  max-width: 5%;
+  max-width: 10%;
+  min-width: 5%;
 }
 
 /* Posts list */
