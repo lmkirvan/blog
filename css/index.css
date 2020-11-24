@@ -144,6 +144,14 @@ pre {
   text-decoration: underline;
 }
 
+.nav-img {
+  padding-left: 1em;
+  padding-top: 1em;
+  padding-bottom: .5em;
+  float: left;
+  max-width: 5%;
+}
+
 /* Posts list */
 .postlist {
   list-style: none;
