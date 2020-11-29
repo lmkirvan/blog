@@ -26,11 +26,15 @@ p,
 .tmpl-post li,
 img,
 video {
-  max-width: 90%;
-  border: none;
+  max-width: 100%;
+  border: 1em;
 }
-img[width][height] {
+img {
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 p,
 .tmpl-post li {

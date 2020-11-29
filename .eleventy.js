@@ -5,6 +5,7 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
+const Image = require("@11ty/eleventy-img");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
@@ -65,6 +66,36 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("img");
   eleventyConfig.addPassthroughCopy("css");
 
+  /*responsive images*/
+
+  eleventyConfig.addNunjucksAsyncShortcode("myResponsiveImage", async function(src, alt, outputFormat = "jpeg") {
+    if(alt === undefined) {
+      // You bet we throw an error on missing alt (alt="" works okay)
+      throw new Error(`Missing \`alt\` on myResponsiveImage from: ${src}`);
+    }
+
+   let stats = await Image(src, {
+      widths: [null],
+      formats: [outputFormat],
+      urlPath: "/images/",
+      outputDir: "./dist/images/",
+    });
+    let lowestSrc = stats[outputFormat][0];
+    let sizes = "90vw"; 
+
+    // Iterate over formats and widths
+    return `<picture>
+      ${Object.values(stats).map(imageFormat => {
+        return `  <source type="image/${imageFormat[0].format}" srcset="${imageFormat.map(entry => `${entry.url} ${entry.width}w`).join(", ")}" sizes="${sizes}">`;
+      }).join("\n")}
+        <img
+          src="${lowestSrc.url}"
+          width="${lowestSrc.width}"
+          height="${lowestSrc.height}"
+          alt="${alt}">
+      </picture>`;
+    }); 
+
   /* Markdown Overrides */
   let markdownLibrary = markdownIt({
     html: true,
@@ -75,6 +106,8 @@ module.exports = function(eleventyConfig) {
     permalinkClass: "direct-link",
     permalinkSymbol: "#"
   });
+
+  
   eleventyConfig.setLibrary("md", markdownLibrary);
 
   // Browsersync Overrides
@@ -115,6 +148,9 @@ module.exports = function(eleventyConfig) {
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
+
+
+
 
     // These are all optional, defaults are shown:
     dir: {
