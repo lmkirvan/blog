@@ -11,11 +11,9 @@
     <link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
   </head>
   <body>
-    <header>      
+    <header> 
       <img class="nav-img" src="/img/duck_rabbit_soup.svg">
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
-
-
+      <span class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></span>
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
       {%- for entry in collections.all | eleventyNavigation %}
