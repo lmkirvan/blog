@@ -15,7 +15,7 @@ I was surprised by how many colorful mushrooms I'd found. Before I started looki
 
 <img src="/img/2020_11_29_cinnabar.jpg" width="150" style="width: 450px" />
 
-Frequently the chemical culprit appears to be "Canthaxanthin", a somewhat widely used food dye caratenoid. But the orange color doesn't appear to indicate anything about the food suitability of the mushrooms; encompassing some of the most famously poisonous mushrooms (like fly agaric) and some of the choicest edibles (chicken of the woods, chantrelles). Maybe it has to do with the weird dual nature of mushrooms, flowers built up on top of decay rather than production--with the same organism sometimes reproducing sexually  (like the dead man's fingers below, attracting flies) and sometimes asexually. The orange color has this same dialectic quality. The orange color is a sign of danger, but also attraction, Camouflage to deer; advertisement to flies. 
+Frequently the chemical culprit appears to be "Canthaxanthin", a somewhat widely used food dye caratenoid. But the orange color doesn't appear to indicate anything about the food suitability of the mushrooms; encompassing some of the most famously poisonous mushrooms (like fly agaric) and some of the choicest edibles (chicken of the woods, chanterelles). Maybe it has to do with the weird dual nature of mushrooms, flowers built up on top of decay rather than production--with the same organism sometimes reproducing sexually  (like the dead man's fingers below, attracting flies) and sometimes asexually. The orange color has this same dialectic quality. The orange color is a sign of danger, but also attraction, Camouflage to deer; advertisement to flies. 
 
 
 <img src="/img/2021_01_10_dead_man.jpg" width="150" style="width: 450px" />
