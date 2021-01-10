@@ -1,7 +1,7 @@
 ---
 title: The color orange and mushrooms.
 description: so many orange mushrooms.
-date: 2020-11-29
+date: 2021-01-10
 tags:
   - mushroom hunting
 layout: layouts/post.njk
