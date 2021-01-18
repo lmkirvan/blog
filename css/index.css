@@ -1,5 +1,5 @@
 :root {
-  --red: #C5004A;
+  --red: #E50914;
   --darkred: #7F0036;
   --lightgray: #e0e0e0;
   --gray: #C0C0C0;
@@ -7,6 +7,7 @@
   --navy: #17050F;
   --blue: #082840;
   --white: #fff;
+  --bkgrnd:#fbffed;
 }
 * {
   box-sizing: border-box;
@@ -17,7 +18,7 @@ body {
   margin: 0;
   font-family: system-ui, sans-serif;
   color: var(--darkgray);
-  background-color: var(--white);
+  background-color: var(--bkgrnd)
 }
 p:last-child {
   margin-bottom: 0;
@@ -39,6 +40,7 @@ img {
 p,
 .tmpl-post li {
   line-height: 1.45;
+  max-width: 825px;
 }
 a[href] {
   color: var(--blue);
@@ -54,6 +56,7 @@ main :first-child {
 }
 header {
   border-bottom: 1px dashed var(--lightgray);
+
 }
 header:after {
   content: "";
@@ -70,11 +73,11 @@ table th {
 
 pre,
 code {
-  font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  font-family: Andale Mono",  Monaco, Consolas, Menlo, "Andale Mono WT", " "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
   line-height: 1.5;
 }
 pre {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.375;
   direction: ltr;
   text-align: left;
@@ -198,7 +201,6 @@ pre {
   font-weight: 700;
 }
 
-
 /* Tags */
 .post-tag {
   display: inline-block;
@@ -208,7 +210,7 @@ pre {
   padding: 2px 4px;
   margin-left: 0.8em; /* 8px /10 */
   background-color: var(--red);
-  color: var(--white);
+  color: var(--white);  
   border-radius: 0.25em; /* 3px /12 */
   text-decoration: none;
 }
@@ -242,4 +244,47 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link,
 :hover > a[href].direct-link:visited {
   color: #aaa;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+
+.column {
+  float: left;
+  width: 75%;
+
+}
+
+.column-right {
+  width: 25%;
+  background-image: url("/img/right_bg.svg");
+  background-repeat: repeat;
+  opacity: .2;
+  margin-top: .5em
+
+}
+
+@media screen and (max-width: 992px) {
+  .column {
+    width: 90%;
+  }
+
+  .column-right {
+    float: left;
+    width: 10%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+hr{
+  opacity: .25;
 }
