@@ -16,7 +16,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: var(--darkgray);
   background-color: var(--bkgrnd)
 }
@@ -70,10 +70,13 @@ table td,
 table th {
   padding-right: 1em;
 }
+h1,h2,h3,h4 {
+  font-family: 'Roboto slab', sans-serif;
+}
 
 pre,
 code {
-  font-family: Andale Mono",  Monaco, Consolas, Menlo, "Andale Mono WT", " "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  font-family: "Andale Mono",  Monaco, Consolas, Menlo, "Andale Mono WT", " "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
   line-height: 1.5;
 }
 pre {
