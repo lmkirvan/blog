@@ -70,13 +70,17 @@ table td,
 table th {
   padding-right: 1em;
 }
-h1,h2,h3,h4 {
-  font-family: 'Roboto slab', sans-serif;
+.h1, h1,
+.h2, h2, 
+.h3, h3,
+.h4, h4{
+  font-family: "Roboto slab", sans-serif;
 }
 
 pre,
 code {
   font-family: "Andale Mono",  Monaco, Consolas, Menlo, "Andale Mono WT", " "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+
   line-height: 1.5;
 }
 pre {
